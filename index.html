@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="FitMeal - Đồ ăn giảm cân cao cấp, bữa ăn lành mạnh được chuẩn bị bởi chuyên gia dinh dưỡng. Giao hàng tận nơi tại TP.HCM và Hà Nội.">
+    <meta name="keywords"
+        content="đồ ăn giảm cân, thực đơn eat clean, bữa ăn healthy, diet food, meal prep, giảm cân an toàn">
+    <title>FitMeal - Đồ Ăn Giảm Cân Cao Cấp | Bữa Ăn Lành Mạnh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-left">
+                    <a href="tel:0987654321" class="top-info">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+84) 932 788 120</span>
+                    </a>
+                    <a href="mailto:contact@fitmeal.vn" class="top-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@fitmeal.vn</span>
+                    </a>
+                </div>
+                <div class="top-bar-right">
+                    <span class="top-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>TP. Hồ Chí Minh & Hà Nội</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="FitMeal Logo">
+                    <span class="logo-text">FitMeal</span>
+                </a>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Trang Chủ</a></li>
+                        <li><a href="#about" class="nav-link">Về Chúng Tôi</a></li>
+                        <li><a href="#products" class="nav-link">Sản Phẩm</a></li>
+                        <li><a href="#benefits" class="nav-link">Lợi Ích</a></li>
+                        <li><a href="#testimonials" class="nav-link">Đánh Giá</a></li>
+                        <li><a href="#contact" class="nav-link">Liên Hệ</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <a href="#order" class="btn btn-primary">Đặt Hàng Ngay</a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <img src="images/hero_banner.png" alt="Healthy Food Banner">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🌿 100% Nguyên Liệu Tự Nhiên</div>
+                <h1 class="hero-title">
+                    <span class="highlight">Bữa Ăn Giảm Cân</span><br>
+                    Ngon Miệng & Bổ Dưỡng
+                </h1>
+                <p class="hero-description">
+                    Chúng tôi cung cấp các bữa ăn được thiết kế khoa học bởi chuyên gia dinh dưỡng,
+                    giúp bạn giảm cân hiệu quả mà vẫn đảm bảo đủ dưỡng chất cho cơ thể.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="5000">0</span>
+                        <span class="stat-label">Khách Hàng</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="150">0</span>
+                        <span class="stat-label">Công Thức</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% Hài Lòng</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg">
+                        <i class="fas fa-utensils"></i>
+                        Xem Thực Đơn
+                    </a>
+                    <a href="#about" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        Tìm Hiểu Thêm
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Cuộn xuống</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">VỀ CHÚNG TÔI</span>
+                <h2 class="section-title">Cam Kết Chất Lượng & <span class="text-gradient">Sức Khỏe</span></h2>
+                <p class="section-description">
+                    FitMeal được thành lập với sứ mệnh mang đến những bữa ăn lành mạnh,
+                    hỗ trợ giảm cân hiệu quả mà vẫn ngon miệng như bữa ăn gia đình.
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Nguyên Liệu Organic</h3>
+                        <p>100% nguyên liệu sạch, nguồn gốc rõ ràng từ các trang trại đạt chuẩn VietGAP.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Chuyên Gia Dinh Dưỡng</h3>
+                        <p>Thực đơn được thiết kế bởi các chuyên gia dinh dưỡng hàng đầu Việt Nam.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-fire-alt"></i>
+                        </div>
+                        <h3>Kiểm Soát Calories</h3>
+                        <p>Mỗi bữa ăn được tính toán chính xác lượng calories phù hợp mục tiêu của bạn.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3>Giao Hàng Nhanh</h3>
+                        <p>Giao hàng tận nơi trong vòng 2 tiếng, đảm bảo độ tươi ngon của món ăn.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">THỰC ĐƠN</span>
+                <h2 class="section-title">Sản Phẩm <span class="text-gradient">Chủ Đạo</span> Của FitMeal</h2>
+                <p class="section-description">
+                    Khám phá các món ăn giảm cân được yêu thích nhất với công thức độc quyền,
+                    đảm bảo ngon miệng và giúp bạn đạt được mục tiêu giảm cân.
+                </p>
+            </div>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_1.png" alt="Salad Gà Nướng">
+                        <div class="product-badge">Best Seller</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="1">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Trưa</div>
+                        <h3 class="product-title">Salad Gà Nướng & Bơ</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 380 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 35g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">159.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_2.png" alt="Smoothie Bowl">
+                        <div class="product-badge hot">Hot</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="2">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Sáng</div>
+                        <h3 class="product-title">Smoothie Bowl Berry</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 280 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 12g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">129.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_3.png" alt="Cá Hồi Quinoa">
+                        <div class="product-badge premium">Premium</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="3">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Tối</div>
+                        <h3 class="product-title">Cá Hồi Áp Chảo & Quinoa</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 420 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 42g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">229.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_4.png" alt="Bò Nướng Rau Củ">
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="4">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Low Carb</div>
+                        <h3 class="product-title">Bò Nướng & Rau Củ</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 450 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 48g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">199.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_5.png" alt="Meal Prep Box">
+                        <div class="product-badge">Tiết Kiệm</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="5">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Combo</div>
+                        <h3 class="product-title">Meal Prep Box 5 Ngày</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 1500 kcal/ngày</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 100g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="old-price">1.500.000đ</span>
+                                <span class="current-price">1.199.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_6.png" alt="Buddha Bowl">
+                        <div class="product-badge vegan">Vegan</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="6">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Thuần Chay</div>
+                        <h3 class="product-title">Buddha Bowl Chay</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 350 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 18g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">139.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_7.png" alt="Overnight Oats">
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="7">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Sáng</div>
+                        <h3 class="product-title">Overnight Oats Berry</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 320 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 15g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">99.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_8.png" alt="Detox Juice">
+                        <div class="product-badge hot">Hot</div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="8">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Thức Uống</div>
+                        <h3 class="product-title">Detox Green Juice</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 85 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 3g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">69.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_9.png" alt="Tôm Salad">
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="9">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Trưa</div>
+                        <h3 class="product-title">Tôm Salad Bơ Chanh</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 290 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 28g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">179.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/diet_meal_10.png" alt="Trứng Rau Củ">
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm quick-view" data-product="10">
+                                <i class="fas fa-eye"></i> Xem Chi Tiết
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Bữa Sáng</div>
+                        <h3 class="product-title">Trứng Chiên Rau Củ</h3>
+                        <div class="product-info">
+                            <span class="calories"><i class="fas fa-fire"></i> 250 kcal</span>
+                            <span class="protein"><i class="fas fa-dumbbell"></i> 22g protein</span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="current-price">89.000đ</span>
+                            </div>
+                            <a href="#order" class="btn btn-primary btn-sm">
+                                <i class="fas fa-shopping-cart"></i> Đặt Ngay
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">TẠI SAO CHỌN FITMEAL?</span>
+                <h2 class="section-title">Lợi Ích Khi Sử Dụng <span class="text-gradient">FitMeal</span></h2>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="icon-number">01</span>
+                        <i class="fas fa-weight"></i>
+                    </div>
+                    <h3>Giảm Cân Hiệu Quả</h3>
+                    <p>Thực đơn được tính toán khoa học với lượng calories phù hợp, giúp bạn giảm 2-4kg mỗi tháng một
+                        cách an toàn.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="icon-number">02</span>
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Tiết Kiệm Thời Gian</h3>
+                    <p>Không cần đi chợ, nấu ăn hay tính toán dinh dưỡng. Chỉ cần đặt hàng và thưởng thức.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="icon-number">03</span>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Tăng Cường Sức Khỏe</h3>
+                    <p>Bữa ăn cân bằng giúp cải thiện năng lượng, làn da và hệ tiêu hóa của bạn.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <span class="icon-number">04</span>
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Ngon Miệng & Đa Dạng</h3>
+                    <p>Hơn 150+ công thức được cập nhật liên tục, đảm bảo bạn không bao giờ thấy nhàm chán.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="order">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-text">
+                    <h2>Bắt Đầu Hành Trình <span class="text-gradient">Giảm Cân</span> Của Bạn Ngay Hôm Nay!</h2>
+                    <p>Đăng ký ngay để nhận ưu đãi 20% cho đơn hàng đầu tiên và tư vấn miễn phí từ chuyên gia dinh
+                        dưỡng.</p>
+                </div>
+                <form class="cta-form" id="orderForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Họ và tên" required id="customerName">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Số điện thoại" required id="customerPhone">
+                    </div>
+                    <div class="form-group">
+                        <select required id="customerGoal">
+                            <option value="">Mục tiêu của bạn</option>
+                            <option value="lose">Giảm cân</option>
+                            <option value="maintain">Duy trì cân nặng</option>
+                            <option value="gain">Tăng cơ</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-full">
+                        <i class="fas fa-paper-plane"></i>
+                        Nhận Tư Vấn Miễn Phí
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">ĐÁNH GIÁ KHÁCH HÀNG</span>
+                <h2 class="section-title">Khách Hàng Nói Gì Về <span class="text-gradient">FitMeal</span>?</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Sau 2 tháng sử dụng FitMeal, mình đã giảm được 8kg mà không hề cảm thấy
+                        đói hay thiếu năng lượng. Món ăn rất ngon và đa dạng!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>TL</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Trần Thị Lan</h4>
+                            <span>Nhân viên văn phòng</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Là người thường xuyên phải đi công tác, FitMeal giúp mình duy trì chế
+                        độ ăn uống lành mạnh một cách dễ dàng. Giao hàng nhanh và chất lượng tuyệt vời!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>NM</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Nguyễn Văn Minh</h4>
+                            <span>Doanh nhân</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Combo Meal Prep 5 ngày thực sự rất tiện lợi và tiết kiệm. Mình không
+                        cần phải suy nghĩ về việc nấu ăn gì mỗi ngày nữa. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>PH</span>
+                        </div>
+                        <div class="author-info">
+                            <h4>Phạm Thị Hương</h4>
+                            <span>Giáo viên yoga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <a href="#" class="footer-logo">
+                            <img src="images/logo.png" alt="FitMeal Logo">
+                            <span>FitMeal</span>
+                        </a>
+                        <p class="footer-desc">
+                            FitMeal - Đồ ăn giảm cân cao cấp, bữa ăn lành mạnh được chuẩn bị bởi chuyên gia dinh dưỡng
+                            hàng đầu Việt Nam.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Liên Kết Nhanh</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Trang Chủ</a></li>
+                            <li><a href="#about">Về Chúng Tôi</a></li>
+                            <li><a href="#products">Sản Phẩm</a></li>
+                            <li><a href="#benefits">Lợi Ích</a></li>
+                            <li><a href="#testimonials">Đánh Giá</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Hỗ Trợ</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                            <li><a href="#">Chính Sách Giao Hàng</a></li>
+                            <li><a href="#">Chính Sách Đổi Trả</a></li>
+                            <li><a href="#">Điều Khoản Sử Dụng</a></li>
+                            <li><a href="#">Chính Sách Bảo Mật</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Liên Hệ</h3>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:0932788120">(+84) 932 788 120</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contact@fitmeal.vn">contact@fitmeal.vn</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>33 Đường 14, KDC Bình Hưng, Ấp 2, Huyện Bình Chánh, TPHCM</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>8:00 - 21:00 hàng ngày</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 FitMeal. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://m.me/fitmeal" class="floating-btn messenger" aria-label="Messenger">
+            <i class="fab fa-facebook-messenger"></i>
+        </a>
+        <a href="https://zalo.me/0932788120" class="floating-btn zalo" aria-label="Zalo">
+            <span class="zalo-icon">Zalo</span>
+        </a>
+        <a href="tel:0932788120" class="floating-btn phone" aria-label="Phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <button class="floating-btn scroll-top" id="scrollTop" aria-label="Scroll to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="" alt="" id="modalImage">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-meta">
+                        <span class="modal-calories"><i class="fas fa-fire"></i> <span id="modalCalories"></span></span>
+                        <span class="modal-protein"><i class="fas fa-dumbbell"></i> <span
+                                id="modalProtein"></span></span>
+                    </div>
+                    <p id="modalDescription"></p>
+                    <div class="modal-ingredients">
+                        <h4>Thành phần:</h4>
+                        <ul id="modalIngredients"></ul>
+                    </div>
+                    <div class="modal-price">
+                        <span id="modalPrice"></span>
+                    </div>
+                    <a href="#order" class="btn btn-primary btn-lg btn-full">
+                        <i class="fas fa-shopping-cart"></i> Đặt Hàng Ngay
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
